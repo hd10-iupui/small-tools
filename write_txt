@@ -1,0 +1,7 @@
+# There are two ways to write in a file.
+file1 = open("MyFile.txt","a")
+file1.write(str1)
+file1.writelines(L) for L = [str1, str2, str3] 
+file1.close()
+
+
